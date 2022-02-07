@@ -12,8 +12,4 @@ code {
     monospace;
 }
 
-#sidebar{
-  position: fixed;
-  width:280px;
-  height: 100vh;
-}
+

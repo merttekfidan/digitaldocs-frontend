@@ -7,13 +7,13 @@ import Navigation from './components/Navigation'
 function App() {
   return (
     <div className="App">
-    <div class="d-flex" id="wrapper">
-    <Navbar/>
-    <div id="page-content-wrapper">
-        <Navigation/>
-        <Content/>
-    </div>
-</div>
+      <div className="d-flex" id="wrapper">
+        <Navbar/>
+        <div id="page-content-wrapper">
+            <Navigation/>
+            <Content/>
+        </div>
+      </div>
     </div>
   );
 }
