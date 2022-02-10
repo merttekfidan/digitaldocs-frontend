@@ -1,5 +1,4 @@
 import './App.css';
-import logo from './logo.svg';
 import Navbar from './components/Navbar'
 import Content from './components/Content'
 import Navigation from './components/Navigation'
