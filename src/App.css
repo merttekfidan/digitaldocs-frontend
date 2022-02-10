@@ -36,3 +36,13 @@
     transform: rotate(360deg);
   }
 }
+
+.cardCustom{
+  width: 18rem;
+  margin: 1rem;
+  max-height: 40em;
+}
+
+.cardCustom .dropdown-divider{
+  max-width: 80%;
+}
