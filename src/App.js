@@ -1,18 +1,11 @@
 import './App.css';
-import Navbar from './components/Navbar'
-import Content from './components/Content'
-import Navigation from './components/Navigation'
+import Dashboard from './Pages/Dashboard'
+
 
 function App() {
   return (
     <div className="App">
-      <div className="d-flex" id="wrapper">
-        <Navbar/>
-        <div id="page-content-wrapper">
-            <Navigation/>
-            <Content/>
-        </div>
-      </div>
+      <Dashboard/>
     </div>
   );
 }

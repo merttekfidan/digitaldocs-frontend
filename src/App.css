@@ -41,8 +41,25 @@
   width: 18rem;
   margin: 1rem;
   max-height: 40em;
+  
 }
 
 .cardCustom .dropdown-divider{
   max-width: 80%;
+}
+
+ .cardCustom{
+  font-size: 0.9rem;
+  font-weight: 200;
+  font-family: fangsong;
+}
+
+.label-context{
+  margin-top:-10px;
+  gap:1rem;
+}
+
+.minus-margin{
+    margin-top: -0.8rem !important;
+    padding-left: 2rem;
 }
