@@ -1,11 +1,16 @@
+import {Outlet} from 'react-router-dom'
 import './App.css';
-import Dashboard from './Pages/Dashboard'
+import Main from './Layouts/Main'
+
+
 
 
 function App() {
   return (
     <div className="App">
-      <Dashboard/>
+      <Main>
+        <Outlet/>
+      </Main>
     </div>
   );
 }
